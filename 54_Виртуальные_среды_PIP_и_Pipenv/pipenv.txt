@@ -1,0 +1,18 @@
+.venv - создать папку
+
+pipenv install package_name - установка пакета в виртуальную среду в папке .venv
+pipenv shell или pipenv run - для активации виртуальной среды
+
+pipenv update / package_name - обновление всех пакетов или указанных 
+
+pipenv graph - список всех пакетов и их зависимости
+
+
+В файлах Pipfile и Pipfile.lock - храняться установленные пакеты
+
+
+Чтобы code runner работал с кодом в виртуальной среде:
+1. Настройки vs code (ctrl + ,)
+2. code runner executor map (settiings.json)
+3. Изменить python на путь к виртуальной среде в которой вы работаете.
+/путь к проекту/.venv/bin/python

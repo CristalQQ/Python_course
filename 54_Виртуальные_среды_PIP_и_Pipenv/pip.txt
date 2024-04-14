@@ -1,0 +1,13 @@
+https://pypi.org
+
+pip install --upgrade pip - обновит сам pip
+pip install -U - обновляет установленные пакеты
+
+pip install package_name - установка пакета
+pip install package_name=2.1.* - установка определенной версии
+pip uninstall package_name - удаление пакета
+
+pip list - список установленных пакетов
+pip install --upgrade pip - обновление текущей версии pip
+
+
